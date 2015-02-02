@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Барбершоп «Бородинский»</title>
+</head>
+<body>
+
+<header class="main-header">
+	<div class="container clearfix">
+	<nav class="main-navigation">
+		<ul>
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">Информация</a></li>
+			<li><a href="#">Новости</a></li>
+			<li><a href="#">Прайс-лист</a></li>
+			<li class="active"><a href="#">Магазин</a></li>
+			<li><a href="#">Контакты</a></li>
+ 		</ul>
+	</nav>
+
+		<div class="user-block">
+			<a href="#" class="login">Вход</a>
+		</div>
+	</div>
+</header>
+
+<main class="container">
+	<h1>Средства для ухода</h1>
+
+	<div class="breadcrumbs">
+		<ul>
+			<li><a href="#">Главная</a> </li>
+			<li> <a href="#">Прайс-лист</a> </li>
+			<li class="breadcrumbs-active">Средства для ухода </li>
+		</ul>
+	</div>	
+
+<div class="store-columns clearfix">
+	<div class="left-column">
+		<h3>Производители</h3>
+ 		<form class="filter-vendors" action="/echo" method="get">
+                    <div class="filter-row">
+                        <input type="checkbox" name="baxter" id="baxter" checked>
+                        <label class="checkbox-label" for="baxter"><span></span>Baxter of California</label>
+                    </div>
+                    <div class="filter-row">
+                        <input type="checkbox" name="natty" id="natty">
+                        <label class="checkbox-label" for="natty"><span></span>Mr Natty</label>
+                    </div>
+                    <div class="filter-row">
+                        <input type="checkbox" name="suavecito" id="suavecito" checked>
+                        <label class="checkbox-label" for="suavecito"><span></span>Suavecito</label>
+                    </div>
+                    <div class="filter-row">
+                        <input type="checkbox" name="malingoetz" id="malingoetz">
+                        <label class="checkbox-label" for="malingoetz"><span></span>Malin+Goetz</label>
+                    </div>
+                    <div class="filter-row">
+                        <input type="checkbox" name="murrays" id="murrays">
+                        <label class="checkbox-label" for="murrays"><span></span>Murray's</label>
+                    </div>
+                    <div class="filter-row">
+                        <input type="checkbox" name="amecrew" id="amecrew" checked>
+                        <label class="checkbox-label" for="amecrew"><span></span>American Crew</label>
+                    </div>
+                    </form>
+
+                     <h3>Группы товаров</h3>
+                    <div class="filter-row">
+                        <input type="radio" name="product-group" id="select1" checked>
+                        <label class="radio-company" for="select1"><span></span>Бритвенные принадлежности</label>
+                    </div>
+                    <div class="filter-row">
+                        <input type="radio" name="product-group" id="select2">
+                        <label class="radio-company" for="select2"><span></span>Средства для ухода</label>
+                    </div>
+                    <div class="filter-row">
+                        <input type="radio" name="product-group" id="select3">
+                        <label class="radio-company" for="select3"><span></span>Аксессуары</label>
+                    </div>
+    <button form="filter-vendors">Показать</button>
+    <!--По кнопке так или картинкой?-->
+  </div>
+
+
+<div class="right-column">
+	<div class="shop-item">
+		<div class="row">
+			<div class="product">
+				<div class="product-image">
+					<a href="#"><img src="http://placehold.it/220x165" alt="test" width="220px" height="165px"></a>
+				</div>
+				<div class="vendors">
+					<a href="#">Baxter of California </a>
+				</div>
+				<div class="product-name">
+					<a href="#">Набор для путешествий</a>
+				</div>
+				<div class="product-price">
+					<div class="price">2900 руб.</div>
+					<a class="btn btn-buy" href="#">Купить</a>
+				</div>
+	</div>
+
+	<div class="product">
+			<div class="product-image">
+				<a href="#"><img src="http://placehold.it/220x165" alt="test" width="220px" height="165px"></a>
+				</div>
+
+	<div class="vendors">
+		<a href="#">Baxter of California </a>
+	</div>
+	<div class="product-name">
+		<a href="#">Увлажняющий кондиционер</a>
+		</div>
+		<div class="product-price">
+			<div class="price">750 руб.</div>
+			<a class="button-buy" href="#">Купить</a>
+		</div>
+	</div>
+
+	<div class="product">
+			<div class="product-image">
+				<a href="#"><img src="http://placehold.it/220x165" alt="test" width="220px" height="165px"></a>
+				</div>
+
+	<div class="vendors">
+		<a href="#">Sauvecito</a>
+	</div>
+	<div class="product-name">
+		<a href="#">Гель для волос</a>
+		</div>
+		<div class="product-price">
+			<div class="price">290 руб.</div>
+			<a class="button-buy" href="#">Купить</a>
+		</div>
+	</div>
+
+	<div class="product">
+			<div class="product-image">
+				<a href="#"><img src="http://placehold.it/220x165" alt="test" width="220px" height="165px"></a>
+				</div>
+
+	<div class="vendors">
+		<a href="#">American Crew</a>
+	</div>
+	<div class="product-name">
+		<a href="#">Глина для укладки волос</a>
+		</div>
+		<div class="product-price">
+			<div class="price">500 руб.</div>
+			<a class="button-buy" href="#">Купить</a>
+		</div>
+	</div>
+
+	<div class="product">
+			<div class="product-image">
+				<a href="#"><img src="http://placehold.it/220x165" alt="test" width="220px" height="165px"></a>
+				</div>
+
+					<div class="product">
+			<div class="product-image">
+				</div>
+
+	<div class="vendors">
+		<a href="#">American Crew</a>
+	</div>
+	<div class="product-name">
+		<a href="#">Гель для волос</a>
+		</div>
+		<div class="product-price">
+			<div class="price">300 руб.</div>
+			<a class="button-buy" href="#">Купить</a>
+		</div>
+	</div>
+
+	<div class="product">
+			<div class="product-image">
+				</div>
+
+	<div class="product">
+			<div class="product-image">
+				<a href="#"><img src="http://placehold.it/220x165" alt="test" width="220px" height="165px"></a>
+				</div>
+
+	<div class="vendors">
+		<a href="#">Baxter of California</a>
+	</div>
+	<div class="product-name">
+		<a href="#">Набор для бритья</a>
+		</div>
+		<div class="product-price">
+			<div class="price">3900 руб.</div>
+			<a class="button-buy" href="#">Купить</a>
+		</div>
+	</div>
+	</div>
+
+	<div class="page-type">
+		<a href="#1">1</a>
+    	<a class="selected" href="">2</a>
+    	<a href="#3">3</a>
+    	<a href="#4">4</a>
+	</div>
+
+	<footer class="main-footer main-footer-shadow">
+		<div class="container clearfix">
+			<section class="footer-contact">"Barbershop borodinsky" <br>Адрес г. Санкт-Петербург, ул.Собаки Павлова, д.13 <br>
+			<a href="#">как нас найти </a> <br>Телефон:+7(495)666-02-666
+			</section>
+		</div>
+
+		<div class="footer-social">
+			<p>Давайте дружить!</p>
+				<a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+				<a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+				<a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+		</div>
+		<div class="footer-autor">
+			<p>Дизайн сайта:</p>
+			<a href="#" class="btn">glukhanko.ru</a>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
