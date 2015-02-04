@@ -31,6 +31,7 @@ background: red;
 .main-content {
   margin: 30px auto;
   	background: grey;
+
 }
 .breadcrumbs {
 	float:left;
@@ -39,14 +40,18 @@ background: red;
 	margin-top: 5px
 }
 .column-right {
+margin-top: 15px;
 float: right;
 width: 250px;
 background: white;
+clear: both;
 }
 .column-left {
+	margin-top: 15px;
 	float: left;
 	width: 250px;
 	background: yellow;
+	clear: both;
 }
 .main-footer {
 	padding: 20px;
@@ -71,5 +76,5 @@ background: black;
 }
 .bigtitle {
 background: orange;
-padding: 15px;
+text-align: center;
 }
