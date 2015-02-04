@@ -21,6 +21,14 @@ width: 520px;
 min-height: 20px;
 background: red;
 }
+.main-navigation ul{
+	list-style: none;
+}
+
+.main-navigation li{
+	display: inline-block;
+	vertical-align: top;
+	}
 
 .user-block {
 	float:right;
@@ -33,25 +41,17 @@ background: red;
   	background: grey;
 
 }
-.breadcrumbs {
-	float:left;
-	background: green;
-	margin-bottom: 5px;
-	margin-top: 5px
-}
 .column-right {
 margin-top: 15px;
 float: right;
 width: 250px;
 background: white;
-clear: both;
 }
 .column-left {
 	margin-top: 15px;
 	float: left;
 	width: 250px;
 	background: yellow;
-	clear: both;
 }
 .main-footer {
 	padding: 20px;
@@ -76,5 +76,20 @@ background: black;
 }
 .bigtitle {
 background: orange;
+padding: 15px;
 text-align: center;
+font-size: 30px;
+}
+
+.breadcrumbs {
+	background: green;
+	margin-bottom: 5px;
+	margin-top: 5px
+	}
+.breadcrumbs ul{
+list-style: none;
+}
+.breadcrumbs li{
+	display: inline-block;
+	vertical-align: top;
 }
