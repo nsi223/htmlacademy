@@ -3,6 +3,17 @@ body {
   margin: 0;
   padding: 0;
 }
+.image-prew:after{
+	content:"";
+	background: red;
+	width: 40px;
+
+}
+
+
+
+
+
 .clearfix:after {
   content: '';
   display: table;
@@ -92,4 +103,29 @@ list-style: none;
 .breadcrumbs li{
 	display: inline-block;
 	vertical-align: top;
+}
+.left-column{
+	background: black;
+	width: 65%;
+}
+.right-column {
+	float: right;
+	background: red;
+	width: 23%;
+	margin-bottom: 100px;
+
+}
+
+.product-description {
+float: right; 
+}
+.image-prew {
+	
+	background: black;
+	display: inline-block;
+	vertical-align: top
+}
+.big-image{
+	display: inline-block;
+	background: pink;
 }
