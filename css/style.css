@@ -111,7 +111,7 @@ list-style: none;
 .right-column {
 	float: right;
 	background: red;
-	width: 23%;
+	width: 35%;
 	margin-bottom: 100px;
 
 }
@@ -128,4 +128,9 @@ float: right;
 .big-image{
 	display: inline-block;
 	background: pink;
+}
+.single-item clearfix{
+content: '';
+display: table;
+clear: both;
 }
