@@ -1,0 +1,48 @@
+body {
+  min-width: 800px;
+  margin: 0;
+  padding: 0;
+
+  background-color: black;
+  background-image: url('barbershop-index.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 1800px auto;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  padding: 5px 0;
+}
+
+.container {
+  width: 660px;
+  margin: 0 auto;
+
+  /* для оформления схемы */
+  /*min-height: 20px;*/
+  padding: 5px;
+}
+
+.main-navigation {
+  float: left;
+
+  width: 520px;
+
+  /* для оформления схемы */
+  min-height: 20px;
+}
+
+.user-block {
+  float: right;
+
+  width: 90px;
+
+  /* для оформления схемы */
+  min-height: 20px;
+}
