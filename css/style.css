@@ -107,12 +107,14 @@ list-style: none;
 .left-column{
 	background: black;
 	width: 65%;
+	display: ;
 }
 .right-column {
 	float: right;
 	background: red;
 	width: 35%;
 	margin-bottom: 100px;
+	display: inline;
 
 }
 
