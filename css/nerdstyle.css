@@ -242,14 +242,19 @@ margin-left: 30px;
 .three-column {
 	width: 100%;
 	display: inline-block;
-	opacity: 0.5;
 	float: left; 
 	border-bottom:2px solid #eeeeee;
+	opacity: 0.5;
+	margin-bottom: 40px;
+
+}
+.three-column:hover {
+	opacity: 1;
 }
 
-.three-column a {
-	margin-right: 25px;
-}
+
+
+
 .about-us {
 	margin-top: 20px;
 	margin-bottom: 80px;
@@ -297,18 +302,44 @@ margin-left: 30px;
 margin-bottom: 43px;
 }
 
+/* Форма */
+.form-area {
+    position: absolute;
+    padding: 25px 20px;
+    margin: 100px 0;
+    background: white;
+    margin-left: 150px;
+}
+.form-title {
+    font-weight: 300;
+    line-height: 30px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+}
+.form-title span{
+	font-weight: 500;
+}
+.form-area address {
+    line-height: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
 
-
-
+.phone  {
+    line-height: 20px;
+    color: #666;
+    margin-bottom: 30px;
+}
 	
 
 .map{
+position: relative;
 width: 1200px;
+height: 400px;
+margin: 85px auto 0;
 }
-.form-area {
-   display: inline-block;
-   background-color: blue;
-   position: absolute; 
 
 }
 .footer {
