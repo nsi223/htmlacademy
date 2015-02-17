@@ -13,19 +13,15 @@ body {
 	padding-top: 25px;
 }
 .layout-center-wrapper {
-    width: 880px;
+    width: 900px;
     margin:0 auto;
     padding: 0 10px;
 }
 
-.logo {
-	float: left;
-}
 
 .menu {
 	float: left;
 	padding-top: 25px;
-	margin-left: 170px;
 	font-size: 14px;
 }
 .menu ul>li {
@@ -52,12 +48,6 @@ body {
 .slides {
 	padding-top: 30px;
 	margin-bottom: 70px;
-	background: orange;
-
-}
-.feature-row {
-	background: orange;
-	display: inline-table;
 }
 =======
 .main-content {
@@ -67,9 +57,7 @@ body {
 /* Хэдер */
 
 
-.logo {
-float: left;
-  }
+
 
 
 nav a:hover{ color: #fb565a; }
@@ -82,11 +70,10 @@ nav li:last-child{ margin-right: 0; }
 
 .logo, nav{ 
 display: inline-block; vertical-align: bottom;
+float: left;
 } 
 .cart {
-background: red;
-float: right;
-
+margin-left: 30px;
 }
 
  .slides-title {
@@ -168,17 +155,17 @@ float: right;
     border-radius:3px;
 }
 .slide:nth-child(1){
-    background-image:url('img/slide-1.png');
+    background-image:url('../img/slide-1.png');
     background-repeat:no-repeat;
     background-position:100% 10px;
 }
 .slide:nth-child(2){
-    background-image:url('img/slide-2.png');
+    background-image:url('../img/slide-2.png');
     background-repeat:no-repeat;
     background-position:100% 10px;
 }
 .slide:nth-child(3){
-    background-image:url('img/slide-3.png');
+    background-image:url('../img/slide-3.png');
     background-repeat:no-repeat;
     background-position:100% 0;
 }
@@ -204,8 +191,13 @@ float: right;
 	padding-right: 45px;
 	color: grey;
  }
+
+ /* Веб сайты / приложения / Презентации */
+
  .feature-row {
  	padding-bottom: 80px;
+ 	border-bottom:2px solid #eeeeee;
+ 	margin-top: 80px;
  }
  .feature-item {
  	margin-right: 80px;
@@ -227,32 +219,88 @@ float: right;
 	content: " "; 
 	display: table; 
 	clear: both; 
-}
-.feature {
-	float: left
+
+
 }
 .feature-item {
 	width: 240px;
-	background: green;
 	display: inline-block;
 }
+
+/* Как мы работаем */
+
 .about-left {
 	width: 560px;
 	padding: 10px 0;
-	background: orange;
 	float: left;
 }
 .about-right { 
 	width: 240px;
 	padding: 3px;
-	background: blue;
 	float: right;
 }
 .three-column {
 	width: 100%;
-	background: black;
 	display: inline-block;
+	opacity: 0.5;
+	float: left; 
+	border-bottom:2px solid #eeeeee;
 }
+
+.three-column a {
+	margin-right: 25px;
+}
+.about-us {
+	margin-top: 20px;
+	margin-bottom: 80px;
+	border-bottom:2px solid #eeeeee;
+	}
+
+
+.feature-title {
+	font-size: 18px;
+	font-weight: 500px;
+	line-height: 30px;
+	text-transform:uppercase;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.about-us h2 {
+	font-weight: 500px;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+
+}
+.about-features {
+	padding-left: 40px;
+}
+
+
+
+
+
+.feature-description {
+    margin-bottom: 25px;
+}
+
+.about-title {
+	font-size: 36px;
+	font-weight: 500px;
+	line-height:36px;
+	color:black;
+	margin-bottom: 20px;
+}
+
+.description{
+margin-bottom: 43px;
+}
+
+
+
+
+	
 
 .map{
 width: 1200px;
