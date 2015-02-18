@@ -145,7 +145,7 @@ nav {
   height: 100%;
 }
 .slide-text {
-  width: 380px;
+  width: 440px;
   padding: 30px 0;
 
   color: #283136;
@@ -225,7 +225,6 @@ nav {
 .feature-item {
   display: inline-block;
   vertical-align: top;
-
   width: 240px;
   margin-right: 80px;
 }
@@ -272,12 +271,12 @@ nav {
   float: left;
 
   width: 250px;
-  margin-right: 80px;
+  margin-right: 40px;
 }
 .catalog-column {
   float: left;
 
-  width: 550;
+  width: 540px;
 }
 .filter-subtitle {
   margin-bottom: 15px;
@@ -564,6 +563,7 @@ nav {
 
 .feature-description {
   margin-bottom: 25px;
+  min-height: 66px;
 }
 
 .about-title {
