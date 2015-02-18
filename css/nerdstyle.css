@@ -8,6 +8,8 @@ body {
     background: white;
 }
 
+
+
 .header {
 	background: #eee;
 	padding-top: 25px;
@@ -226,6 +228,206 @@ margin-left: 30px;
 	width: 240px;
 	display: inline-block;
 }
+
+/*Каталог*/
+.welcome-catalog {
+	text-align: center;
+	color: black;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	font-size: 40px;
+	font-weight: 100px;
+	line-height: 48px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+}
+.filter-column {
+	float: left;
+	width: 250px;
+	margin-right: 80px;
+}
+.catalog-column{
+	float: left;
+	width: 550;
+}
+.filter-subtitle {
+	font-size: 18px;
+	font-weight: 500px;
+	line-height: 30px;
+	word-spacing: 10px;
+	margin-bottom: 15px;
+	text-transform:uppercase;
+	color:black;
+}
+.range-filter{
+    width:240px;
+    margin-bottom: 45px;
+}
+.range-controls{
+    position:relative;
+    height:80px;
+    margin-bottom:15px;
+    padding:0 30px;
+    background:#f1f1f1;
+    border-radius:5px;
+    overflow:hidden;
+}
+.range-controls .scale{
+    margin-top:39px;
+    height:2px;
+    background:#d7dcde;
+}
+.range-controls .bar{
+    height:2px;
+    background:#00ca74;
+}
+.range-controls .toggle{
+    position:absolute;
+    top:30px;
+    left:30px;
+    width:4px;
+    height:4px;
+    border:8px solid white;
+    background:#ababab;
+    cursor:pointer;
+    border-radius:50%;
+    box-shadow:0 2px 1px 0 #cfcfcf;
+}
+.range-controls .min-toggle{
+    left:10px;
+}
+.range-controls .max-toggle{
+    left:120px;
+}
+.price-controls input{
+    width:60px;
+    padding:8px 10px;
+    margin-left:10px;
+    border:none;
+    background:#f1f1f1;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-weight:300;
+    font-style:normal;
+    text-align:center;
+    color:#283136;
+    border-radius:5px;
+}
+.price-controls .min-price{
+    margin-right:14px;
+}
+.price-controls{
+    white-space:nowrap;
+}
+.filter {
+    margin-bottom: 35px;
+}
+.filter-row {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+.filter-row label {
+    line-height: 20px;
+    color: #283136;
+}
+.sort-title {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 4px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+
+.sort a{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ddd;
+    border-bottom: 1px dotted #03ca74;
+    margin: 0 5px 0 40px; }
+
+.catalog-items {
+    font-size: 0;
+}
+.catalog-row {
+	margin-left: 80px;
+}
+.item-catalog {
+	position: relative;
+	display: inline-block;
+	margin-left: 80px;
+	margin-bottom: 80px;
+}
+.cap {
+    width: 220px;
+    height: 10px;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 3px 3px 0 0;}
+.hole {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border: 3px solid white;
+    background: white;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.item-catalog .actions {
+    position: absolute;
+    display: none;
+    top: 50px;
+    left: 20px;
+    width: 140px;
+    padding: 35px 30px 30px;
+    background: white;
+    z-index: 10;
+    }
+.item-catalog:hover .actions {
+    display: block;
+}
+.item-catalog:hover .cap {
+    background: #797979;
+}
+.actions .item-title {
+    width: 140px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 8px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+.actions .item-description {
+    width: 140px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    word-spacing: 0;
+    text-align: center;
+    color: #283136;
+    margin-bottom: 30px;
+}
+.btn-item {
+    width: 140px;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+
+
+
 
 /* Как мы работаем */
 
@@ -452,5 +654,6 @@ text-transform: uppercase;
 .slider-container{
 padding: 200px; 
 width: 1200px;
-margin-left:500px;
+margin-left:500px; 
+}
 
