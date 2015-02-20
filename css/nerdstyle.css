@@ -348,13 +348,11 @@ nav {
 }
 .filter-column {
   float: left;
-
   width: 250px;
-  margin-right: 40px;
 }
 .catalog-column {
   float: left;
-  width: 540px;
+  width: 590px;
 }
 .filter-subtitle {
   margin-bottom: 15px;
@@ -457,7 +455,6 @@ nav {
 
 
 
-
 .sort a {
   display: inline-block;
   vertical-align: top;
@@ -482,11 +479,13 @@ nav {
   margin-left: 80px;
 }
 .item-catalog {
+  max-height: 240px;
   position: relative;
   display: inline-block;
   vertical-align: left;
   margin-bottom: 80px;
-  margin-left: 80px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 
@@ -532,28 +531,23 @@ nav {
 .actions .item-title {
   width: 140px;
   margin-bottom: 20px;
-
   font-size: 18px;
   font-weight: 500;
   line-height: 8px;
-
   text-align: center;
   word-spacing: 10px;
   text-transform: uppercase;
-
   color: black;
+  text-decoration: none;
 }
 .actions .item-description {
   width: 140px;
   margin-bottom: 30px;
-
   font-size: 14px;
   font-weight: 300;
   line-height: 18px;
-
   text-align: center;
   word-spacing: 0;
-
   color: #283136;
 }
 .btn-item {
@@ -565,6 +559,41 @@ nav {
   color: white;
 }
 
+.paginator {
+	margin-bottom: 20px;
+	margin-left: 80px;
+}
+.btn-gray {
+    background: #f1f1f1;
+}
+.btn-gray:hover {
+    background: #e5e5e5;
+}
+.btn-gray:active {
+    background: #d5d5d5;
+}
+.btn-gray {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 15px;
+  font-size: 12px;
+  font-weight: 550;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  border-radius: 3px;
+}
+
+.btn-selected, .btn-selected:hover, .btn-selected:active {
+min-width: 30px;
+max-height: 15px;
+border: 3px solid #f1f1f1;
+padding: 8px 0;
+background: white;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
 
 /* Как мы работаем */
 
