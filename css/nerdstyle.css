@@ -90,19 +90,17 @@ body {
 }
 
 .menu {
-  float: left;
+  float: right;
 
-  padding-top: 25px;
+  padding-top: 30px;
 
   font-size: 14px;
 }
 .menu ul > li {
   display: inline;
-
-  margin-right: 40px;
-
+  margin-right: 42px;
   font-size: 14px;
-  font-weight: 500px;
+  font-weight: 600;
 }
 
 .menu ul > li > .active {
@@ -131,12 +129,13 @@ nav a:active {
 }
 
 nav li:first-child a {
-  margin-left: 10px;
+  margin-left: 15px;
 }
-
+/*
 nav li:last-child {
   margin-right: 0;
 }
+*/
 
 .logo,
 nav {
@@ -144,8 +143,8 @@ nav {
   float: left;
   vertical-align: middle;
 }
-.cart {
-  margin-left: 30px;
+
+
 }
 .icon-basket:before {
     padding-right: 10px;
@@ -171,7 +170,7 @@ nav {
 .slider {
   position: relative;
 
-  width: 880px;
+  width: 900px;
   height: 310px;
   margin: 0 auto;
 
@@ -256,7 +255,7 @@ nav {
 .slide:nth-child(1) {
   background-image: url("../img/slide-1.png");
   background-repeat: no-repeat;
-  background-position: 100% 10px;
+  background-position: 95% 10px;
 }
 .slide:nth-child(2) {
   background-image: url("../img/slide-2.png");
@@ -314,7 +313,6 @@ nav {
 
 .figure-discriptuon {
   margin-bottom: 26px;
-
   line-height: 20px;
 }
 
@@ -663,7 +661,7 @@ font-weight: 600;
 }
 
 .feature-description {
-  margin-bottom: 25px;
+  letter-spacing: -1px;
   min-height: 66px;
 }
 
