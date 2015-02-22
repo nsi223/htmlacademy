@@ -239,7 +239,7 @@ text-transform: uppercase;
 }
 /*я знаю так нельзя но что то с контейнером проблемы */
 .slider-container{
-padding: 200px; 
-width: 1200px;
-margin-left:500px;
+background: #eee;
+padding-top: 35px;
+margin-bottom: 80px;
 	}
