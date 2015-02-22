@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Барбершоп «Бородинский»</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="css/style.css" href="css/normalize.css">
+  <link rel="stylesheet" type="css/style.css" href="css/nerdstyle.css">
+</head>
+<body> 
+	<header class="header">
+		<div class="layout-center-wrapper clearfix">
+			<figure class="logo"><a href="#"><img src="img/logo.png" width="139" height="56"></a></figure>
+			<nav class="menu">
+				<ul>
+					<li><a href="#">Студия</a></li>
+					<li><a href="#">Клиенты</a></li>
+					<li><a class="active" href="catalog.hmtl">Магазин</a></li>
+					<li><a href="#">Контакты</a></li>
+                    <li class="cart"><a href="#"><i class="icon-basket"></i>Корзина</a></li>
+				</ul>
+				</nav>
+				
+		</div>
+		<div class="welcome-catalog">Добро пожаловать в магазин<br>готовых макетов </div>
+	</header>
+
+<div class="layout-center-wrapper clearfix">
+ <div class="filter-column">
+ 	<div class="filter-subtitle">Стоимость</div>
+ 	<div class="range-filter">
+ 		<div class="range-controls">
+ 			<div class="scale"><div style="margin-left:0px;width:100px;" class="bar"></div></div>
+        	<div class="toggle min-toggle"></div>
+        	<div class="toggle max-toggle"></div>
+        </div>
+        <div class="price-controls">
+        	от <input class="min-price" type="text" value="0">
+        	до <input class="max-price" type="text" value="15 000">
+        </div>
+      </div>
+      <form class="filter type-item">
+      	<div class="filter-subtitle">Сетка:</div>
+           <div class="filter-row">
+           		<input type="radio" name="product-type" id="adaptive" checked="">
+           		<label for="adaptive"><span class="icon-circle"></span>Адаптивная</label>
+          </div>
+           <div class="filter-row">
+                <input type="radio" name="product-type" id="fixed">
+                <label for="fixed"><span class="icon-circle"></span>Фиксированная</label>
+          </div>
+          <div class="filter-row">
+                <input type="radio" name="product-type" id="rubber">
+                <label for="rubber"><span class="icon-circle"></span>Резиновая</label>
+          </div>
+       </form>
+       <form class="filter-feature">
+       	<div class="filter-subtitle">Особенности:</div>
+       	<div class="filter-row">
+        	<input type="checkbox" name="slider" id="slider" checked="">
+        	<label for="slider"><span class="icon-check-off"></span>Слайдер</label>
+        </div>
+         <div class="filter-row">
+             <input type="checkbox" name="features-block" id="features-block">
+             <label for="features-block"><span class="icon-check-off"></span>Блок преимуществ</label>
+         </div>
+          <div class="filter-row">
+              <input type="checkbox" name="news" id="news" checked="">
+              <label for="news"><span class="icon-check-off" ></span>Новости</label>
+          </div>
+          <div class="filter-row">
+               <input type="checkbox" name="gallery" id="gallery">
+               <label for="gallery"><span class="icon-check-off"></span>Галерея</label>
+          </div>
+           <div class="filter-row">
+            	<input type="checkbox" name="cart" id="cart">
+             	<label for="cart"><span class="icon-check-off"></span>Корзина</label>
+           </div>
+        </form>
+       </div>
+      <div class="catalog-column">
+
+       	<div class="sort-list clearfix">
+                <div class="arrows">
+            <a class="icon-down-dir active" href="#"></a>
+            <a class="icon-up-dir" href="#"></a>
+        </div>
+       		<div class="sort-title">Сортировать:</div>
+       		<nav class="sort">
+                <a href="#">По цене</a>
+                <a href="#">По типу</a>
+                <a href="#">По функционалу</a>
+           </nav>
+        </div>
+           <!--Тут будут стрелочки когда пойму как -->
+
+           <div class="catalog-items">
+              <div class="item-catalog">
+             	<a href="#" alt="Авиатор">
+             	<div class="cap">
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+               </div>
+                <div class="actions">
+                  <h4 class="item-title">Aviator</h4>
+                  <div class="item-description">Интернет-магази с личным кабинетом</div>
+                  <a class="btn-figure">10 000р.</a>
+                </div>
+                 <a><img src="img/aviator.jpg" width="240px" height="240px"></a>
+              </div>
+
+              <div class="item-catalog">
+             	<a href="#" alt="Авиатор">
+             	<div class="cap">
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+               </div>
+                <div class="actions">
+                  <h4 class="item-title">Sunset</h4>
+                  <div class="item-description">Интернет-магази с личным кабинетом</div>
+                  <a class="btn-figure">10 000р.</a>
+                </div>
+                 <a><img src="img/sunset.jpg" width="240px" height="240px"></a>
+              </div>
+
+              <div class="item-catalog">
+             	<a href="#" alt="Авиатор">
+             	<div class="cap">
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+               </div>
+                <div class="actions">
+                  <h4 class="item-title">Forte</h4>
+                  <div class="item-description">Интернет-магази с личным кабинетом</div>
+                  <a class="btn-figure">10 000р.</a>
+                </div>
+                 <a><img src="img/forte.jpg" width="240px" height="240px"></a>
+              </div>
+
+              <div class="item-catalog">
+             	<a href="#" alt="Авиатор">
+             	<div class="cap">
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+               </div>
+                <div class="actions">
+                  <h4 class="item-title">Thai</h4>
+                  <div class="item-description">Интернет-магази с личным кабинетом</div>
+                  <a class="btn-figure">10 000р.</a>
+                </div>
+                 <a><img src="img/thai.jpg" width="240px" height="240px"></a>
+              </div>
+
+              <div class="item-catalog">
+             	<a href="#" alt="Авиатор">
+             	<div class="cap">
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+               </div>
+                <div class="actions">
+                  <h4 class="item-title">Avenue</h4>
+                  <div class="item-description">Интернет-магази с личным кабинетом</div>
+                  <a class="btn-figure">10 000р.</a>
+                </div>
+                 <a><img src="img/avenue.jpg" width="240px" height="240px"></a>
+              </div>
+                <div class="item-catalog">
+             	<a href="#" alt="Авиатор">
+             	<div class="cap">
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+                	<i class="hole"></i>
+               </div>
+                <div class="actions">
+                  <h4 class="item-title">Dovetail</h4>
+                  <div class="item-description">Интернет-магази с личным кабинетом</div>
+                  <a class="btn-figure">10 000р.</a></div>
+                 <a><img src="img/dovetail.jpg" width="240px" height="240px"></a>
+                 </div>
+            </div>
+              <div class="paginator">
+                 <a class="btn btn-gray btn-page btn-selected" href="#1">1</a>
+                 <a class="btn btn-gray btn-page" href="">2</a>
+                 <a class="btn btn-gray btn-page" href="#3">3</a>
+                 <a class="btn btn-gray btn-next" href="#next">Следующая</a>
+               </div>
+    </div>
+</div>
+  <div class="map">
+      <div class="form-area">
+        <div class="form-title"><span>NЁRDS</span> Design Studio</div>
+        <address>350000, Краснодар,<br>ул. Головатого, 100</address>
+        <div class="phone">тел. +7 (861) 275-75-75</div>
+        <a class="btn-map" href="#">Напишите нам</a>
+      </div> 
+    </div>
+
+  <footer class="layout-center-wrapper">
+      <div class="social-button">
+            <a href="#" class="btn-social"><i class="icons icon-vk"></i></a>
+            <a href="#" class="btn-social"><i class="icons icon-facebook"></i></a>
+            <a href="#" class="btn-social"><i class="icons icon-instagramm"></i></a>
+      </div>
+      <div class="footer-text">
+        <h2 class="friends">Давайте дружить, это выгодно!</h2>
+        <div class="discount">Скидка 10% для друзей из социальных сетей.</div>
+      </div>
+  </footer>
+
+
+
+
+ 
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
